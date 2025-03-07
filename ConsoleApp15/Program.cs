@@ -6,17 +6,16 @@ using (ShopContext context = new ShopContext())
 {
     context.Database.EnsureCreated();
 }
-// AddCategories();
+AddCategories();
 GetCategories();
-// void AddCategories()
-// {
-//     var category = new Category { Id =1 ,Name = "Porn" };
-//     var category1 = new Category { Id = 2,Name = "Play" };
-//     var category2 = new Category { Id = 3,Name="Books" };
-//     using var context = new ShopContext();
-//     context.Categories.AddRange(category, category1, category2);
-//     context.SaveChanges();
-// }
+void AddCategories()
+{
+    var category = new Category {Id = "4",Name = "Porn2" };
+   
+    using var context = new ShopContext();
+    context.Categories.Add(category);
+    context.SaveChanges();
+}
 void GetCategories()
 {
     using var context = new ShopContext();
