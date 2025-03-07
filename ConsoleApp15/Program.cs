@@ -6,7 +6,7 @@ using (ShopContext context = new ShopContext())
 {
     context.Database.EnsureCreated();
 }
-AddCategories();
+// AddCategories();
 GetCategories();
 void AddCategories()
 {
@@ -20,8 +20,5 @@ void GetCategories()
 {
     using var context = new ShopContext();
     var categories = context.Categories.ToList();
-    foreach (var item in categories)
-    {
-        Console.WriteLine($"Categories:{item.Name}");
-    }
+    categories.Select(c=>c.Name).ToList().ForEach(c=>Console.WriteLine(c));
 }
