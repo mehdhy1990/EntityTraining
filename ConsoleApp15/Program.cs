@@ -8,14 +8,7 @@ using (ShopContext context = new ShopContext())
 }
 // AddCategories();
 GetCategories();
-void AddCategories()
-{
-    var category = new Category {Id = "4",Name = "Porn2" };
-   
-    using var context = new ShopContext();
-    context.Categories.Add(category);
-    context.SaveChanges();
-}
+
 void GetCategories()
 {
     using var context = new ShopContext();
