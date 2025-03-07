@@ -62,3 +62,4 @@ C:\Users\mehdi\RiderProjects\ConsoleApp15\ConsoleApp15\obj\Debug\net9.0\refint\C
 C:\Users\mehdi\RiderProjects\ConsoleApp15\ConsoleApp15\obj\Debug\net9.0\ConsoleApp15.pdb
 C:\Users\mehdi\RiderProjects\ConsoleApp15\ConsoleApp15\obj\Debug\net9.0\ConsoleApp15.genruntimeconfig.cache
 C:\Users\mehdi\RiderProjects\ConsoleApp15\ConsoleApp15\obj\Debug\net9.0\ref\ConsoleApp15.dll
+C:\Users\mehdi\RiderProjects\ConsoleApp15\ConsoleApp15\obj\Debug\net9.0\ConsoleApp15.sourcelink.json
